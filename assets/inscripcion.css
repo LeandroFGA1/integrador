@@ -1,0 +1,76 @@
+:root {
+    --rosa-pastel: #ffd1dca9;
+    --rosa-claro: #FFB7C5;
+    --melocoton: #FFC3A0;
+    --amarillo-claro: #FFE5B4;
+    --verde-menta: #B5EAD7;
+    --lavanda: #C7CEEA;
+    --azul-cielo: #C3E4ED;
+    --beige: #F2E8CF;
+    --blanco-claro: #ffffff;
+    --negro: #000000;
+}
+
+body {
+    background-color: var(--azul-cielo);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.registration-container {
+    width: 300px;
+    background-color: var(--lavanda);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: var(--blanco-claro);
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"],input[type="email"],input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid var(--blanco-claro);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--rosa-pastel);
+    color: var(--blanco-claro);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--rosa-claro);
+}
+
+.back-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--blanco-claro);
+    text-decoration: none;
+}
+
+.back-button:hover {
+    color: var(--verde-menta);
+}

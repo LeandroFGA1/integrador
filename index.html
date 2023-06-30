@@ -1,12 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/styles.css">
+        <title>Full Languages</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbarcontainer">
+                <img src="./assets/imgs/Logo.png" class="logo" alt="un mundo de idiomas">
+                <ul class="navbar">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#languages">Cursos</a></li>
+                    <li><a href="#services">Otros Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <ul class="campus-access">
+                    <li>
+                        <a href="./login-alumnos.html" class="campus--log-in">Estudiantes</a>
+                    </li>
+                    <li>
+                        <a href="./login-clientes.html" class="campus--log-in">Clientes</a>
+                    </li>
+                </ul>
+                <span> <a href="./signin.html">Inscribirme</a></span>
+            </nav>
+        </header>
+        <main>
+            <section class="hero" id="hero">
+                <h1>Academia de idiomas Full Languages</h1>
+                <img class="hero-img" src="./assets/imgs/astronauta-con-su-perro.png" alt="">
+                <div class="hero-posttitle">
+                    <img src="./assets/imgs/Logo.png" alt="un mundo de idiomas">
+                    <h2>Descubre mundos de posibilidades aprendiendo idiomas</h2>
+                    <img src="./assets/imgs/Logo.png" alt="un mundo de idiomas">
+                </div>
+            </section>
+            <section class="languages" id="languages">
+                <h2 class="languages-title">Idiomas que brindamos</h2>
+                <div class="cards-container">
+
+                    <div class="card">
+                        <h3>Alto Valyrio</h3>
+                        <input type="checkbox" id="toggle-card" class="toggle-cards">
+                        <img class="card-img" src="./assets/imgs/Targaryen_Shield.png" alt="">
+                        <label for="toggle-card">
+                            <img class="triangulo" src="./assets/imgs/triangulo.png" alt="triangulo">
+                        </label>
+                        <div class="toggle-info-card">
+                            <p>El antiguo idioma noble de Valyria, envuelve de misterio y poder la historia de dragones, imperios y profecías</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Dothraki</h3>
+                        <input type="checkbox" id="toggle-card-2" class="toggle-cards">
+                        <img class="card-img dothraki" src="./assets/imgs/caballos de drogo.png" alt="">
+                        <label for="toggle-card-2">
+                            <img class="triangulo" src="./assets/imgs/triangulo.png" alt="triangulo">
+                        </label>
+                        <div class="toggle-info-card">
+                            <p>El idioma salvaje y guerrero de los Dothraki, resuena con fuerza y honor en las vastas llanuras de Essos, encarnando la vida nómada y la pasión por la conquista.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <input type="checkbox" id="toggle-card-3" class="toggle-cards">
+                        <img class="card-img" src="./assets/imgs/Skyrim.png" alt="">
+                        <h3>Dovahzul</h3>
+                        <label for="toggle-card-3">
+                            <img class="triangulo" src="./assets/imgs/triangulo.png" alt="triangulo">
+                        </label>
+                        <div class="toggle-info-card">
+                            <p>el lenguaje de los Dragonesde Skyrim. Con sus palabras y rugidos, aprendelo para que los Dovah revelan su sabiduría ancestral y doblegar el mundo a tus pies.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-other-color">
+                        <input type="checkbox" id="toggle-card-4" class="toggle-cards">
+                        <img class="card-img" src="./assets/imgs/warhammer.png" alt="">
+                        <h3>Bajo Gótico</h3>
+                        <label for="toggle-card-4">
+                            <img class="triangulo" src="./assets/imgs/triangulo.png" alt="triangulo">
+                        </label>
+                        <div class="toggle-info-card">
+                            <p>El lenguaje que une en adoración y lealtad al Emperador. Su gramática áspera y vocabulario brutal transmiten el fervor y la devoción hacia el gobernante supremo de la humanidad.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <input type="checkbox" id="toggle-card-5" class="toggle-cards">
+                        <img class="card-img" src="./assets/imgs/quenya.png" alt="">
+                        <h3>Quenya</h3>
+                        <label for="toggle-card-5">
+                            <img class="triangulo" src="./assets/imgs/triangulo.png" alt="triangulo">
+                        </label>
+                        <div class="toggle-info-card">
+                            <p>Evoca la elegancia y la sabiduría de los elfos. Sus palabras melodiosas y su gramática refinada reflejan la conexión de los elfos con la naturaleza y su amor por la poesía.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <input type="checkbox" id="toggle-card-6" class="toggle-cards">
+                        <img class="card-img img-cthulhu" src="./assets/imgs/cthulhu.png" alt="">
+                        <h3>R'lyehian</h3>
+                        <label for="toggle-card-6">
+                            <img class="triangulo" src="./assets/imgs/triangulo.png" alt="triangulo"></label>
+                        <div class="toggle-info-card">
+                            <p> Adéntrate en los secretos insondables de R'lyehian, pero ten cuidado, pues su dominio puede abrir puertas a dimensiones inimaginables y a la locura insondable.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <input type="checkbox" id="toggle-card-7" class="toggle-cards">
+                        <img class="card-img" src="./assets/imgs/serpiente.png" alt="">
+                        <h3>Parsél</h3>
+                        <label for="toggle-card-7">
+                            <img class="triangulo" src="./assets/imgs/triangulo.png" alt="triangulo">
+                        </label>
+                        <div class="toggle-info-card">
+                            <p>El misterioso idioma de las serpientes, es un lenguaje sibilante y mágico que se utiliza en el mundo de la magia y la brujería.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-other-color">
+                        <input type="checkbox" id="toggle-card-8" class="toggle-cards">
+                        <img class="card-img img-sindarin" src="./assets/imgs/sindarin.png" alt="">
+                        <h3>Sindarin</h3>
+                        <label for="toggle-card-8">
+                            <img class="triangulo" src="./assets/imgs/triangulo.png" alt="triangulo">
+                        </label>
+                        <div class="toggle-info-card">
+                            <p>la gracia y la belleza de las tierras inmortales hecha lenguaje. Sumérgete en la lírica de sus palabras y descubre un idioma que conecta con la naturaleza y la magia.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services" id="services">
+                <h2>Nuestros Servicios</h2>
+                <div class="service-container">
+                    <div class="service-card">
+                        <h3>Traducción de Poneglyph</h3>
+                        <p>Descubre el antiguo idioma grabado en los Poneglyphs, que encierra secretos y leyendas de la era de los piratas.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Instruccion para empresas</h3>
+                        <p>Instrucción de idiomas para empleados de empresas, adaptada a las necesidades específicas de cada negocio.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Asesoramiento</h3>
+                        <p>Este es un servicio adicional que ofrece Full Languages. Proporcionamos asesoramiento lingüístico para adaptar contenido de marketing a diferentes culturas y audiencias internacionales.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contacto" id="contacto">
+                <h2>Contacto</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <h3>Acerca de nosotros</h3>
+                        <p>Somos una academia de idiomas dedicada a enseñar lenguajes ficticios y reales.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Enlaces</h3>
+                        <ul>
+                            <li><a href="#hero">Inicio</a></li>
+                            <li><a href="#languages">Cursos</a></li>
+                            <li><a href="#services">Otros Servicios</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contacto</h3>
+                        <p>Dirección: Calle Victoria 3, Gloria Eterna, Argentina</p>
+                        <p>Email: administracion@tresestrellas.com</p>
+                        <p>Teléfono: 1812-222222</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2023 Full Languages. Todos los derechos reservados.</p>
+                </div>
+            </footer>
+            
+
+        </main>
+
+        
+        
+    </body>
 </html>
