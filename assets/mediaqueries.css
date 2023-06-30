@@ -1,0 +1,204 @@
+:root {
+    --rosa-pastel: #ffd1dca9;
+    --rosa-claro: #FFB7C5;
+    --melocoton: #FFC3A0;
+    --amarillo-claro: #FFE5B4;
+    --verde-menta: #B5EAD7;
+    --lavanda: #C7CEEA;
+    --azul-cielo: #C3E4ED;
+    --beige: #F2E8CF;
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        font-size: 16px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbarcontainer {
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .navbarcontainer span{
+        padding-left: 2rem;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: var(--azul-cielo);
+        display: none;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .toggle-menu:checked ~ .navbar {
+        display: block;
+    }
+    
+    .img-menu {
+        display: block;
+        padding-right: 2rem;
+    }
+    
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar li {
+        margin-bottom: 1rem;
+    }
+
+
+    .hero{
+        margin-right: -1.9rem;
+    }
+    .hero-posttitle{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 1rem;
+    }
+
+
+
+
+    .cards-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        grid-gap:2rem;
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-cthulhu {
+        width: 150px;
+        height: 90px;
+    }
+
+    .img-sindarin {
+        width: 180px;
+    }
+
+    .dothraki {
+        width: 200px;
+    }
+
+    .service-container {
+        flex-direction: column;
+    }
+
+    .service-card {
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    header {
+        font-size: 18px;
+    }
+
+    .logo {
+        height: 90px;
+    }
+
+    .navbarcontainer {
+        height: 55px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:2rem;
+    }
+
+    .card {
+        align-self: center;
+        justify-self: center;
+        width: 400px;
+        height: 300px;
+    }
+
+    .img-cthulhu {
+        width: 180px;
+        height: 110px;
+    }
+
+    .img-sindarin {
+        width: 220px;
+    }
+
+    .dothraki {
+        width: 230px;
+    }
+    .service-container {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 20px;
+    }
+
+    .service-card {
+        flex-basis: 30%;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1020px) {
+    /* Estilos para computadoras de escritorio */
+    header {
+        font-size: 20px;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    .navbarcontainer {
+        height: 60px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        width: 300px;
+        height: 250px;
+    }
+
+    .img-cthulhu {
+        width: 200px;
+        height: 120px;
+    }
+
+    .img-sindarin {
+        width: 250px;
+    }
+
+    .dothraki {
+        width: 250px;
+    }
+
+    .service-container {
+        flex-direction: column;
+        gap: 3rem;
+        font-size: 24px;
+    }
+
+    .service-card {
+        
+        margin-bottom: 0;
+    }
+}

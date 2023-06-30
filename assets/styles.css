@@ -51,6 +51,16 @@ img{  /* borrar --- remplantear */
     width: 70%;
 }
 
+.img-menu{
+    display: none;
+}
+
+#toggle-menu{
+    display: none;
+}
+
+
+
 .campus-access{
     display: flex;
     align-items: center;
@@ -205,7 +215,7 @@ label:hover{
 .triangulo{
     width: 25px;
     height: 25px;
-    transition: transform 0.5s;
+    transition: transform 0.3s;
 }
 
 .triangulo:active{
