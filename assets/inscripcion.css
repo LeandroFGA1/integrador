@@ -53,7 +53,7 @@ button {
     width: 100%;
     padding: 10px;
     background-color: var(--rosa-pastel);
-    color: var(--blanco-claro);
+    color: var(--negro);
     border: none;
     border-radius: 3px;
     cursor: pointer;
