@@ -58,6 +58,13 @@
         margin-bottom: 1rem;
     }
 
+    .navbar-extras-li{
+        display: block;
+    }
+
+    .campus-access, .navbarcontainer span{
+        display: none;
+    }
 
     .hero{
         width: 100%;
@@ -113,6 +120,25 @@
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    .img-menu{display: block;
+    }
+    .navbar {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: var(--azul-cielo);
+        display: none;
+        text-align: center;
+        font-size: 40px;
+    }
+    .toggle-menu:checked ~ .navbar {
+        display: block;
+    }
+    
+    
+    
 
     header {
         font-size: 18px;

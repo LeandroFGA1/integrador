@@ -18,6 +18,10 @@
     --beige: #F2E8CF;
 }
 
+/* Header  */
+
+
+
 header{
     font-size: 20px;
 }
@@ -96,9 +100,12 @@ img{  /* borrar --- remplantear */
     background-color: var(--rosa-claro);
 }
 
-.navbarcontainer span a:hover::after {
-    width: 100%;
+.navbar-extras-li{
+    display: none;
 }
+
+
+/* fin header */
 
 
 
@@ -109,6 +116,9 @@ img{  /* borrar --- remplantear */
 main{
     padding-top: 60px;
 }
+
+
+/* hero */
 .hero{
     
     background-color:#C3E4ED;
@@ -128,6 +138,13 @@ main{
 .hero-img{
     height: 400px;
 }
+
+/*  final hero */
+
+
+
+
+/* cards/idiomas */
 
 .languages{
     margin-top: 8rem;
@@ -225,6 +242,7 @@ label:hover{
 }
 
 
+/* final cards/idiomas */
 
 
 
@@ -233,8 +251,7 @@ label:hover{
 
 
 
-
-
+/* servicios */
 
 
 .services {
@@ -269,7 +286,11 @@ label:hover{
     color: #666;
 }
 
+/* fin servicios */
 
+
+
+/* contacto */
 
 .contacto {
     margin-top: 8rem;
@@ -306,6 +327,10 @@ button[type="submit"] {
     cursor: pointer;
 }
 
+/* fin contacto */
+
+
+/* footer */
 
 footer {
     background-color: #333;
@@ -349,3 +374,5 @@ footer {
     padding: 1rem 0;
     text-align: center;
 }
+
+/* fin footer */
