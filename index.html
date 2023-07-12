@@ -4,28 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/styles.css">
-        <link rel="stylesheet" href="./assets/mediaqueries.css">
+        <link rel="stylesheet" href="./assets/fakestyles.css">
+        <link rel="stylesheet" href="./assets/fakemediaqueries.css">
         <title>Full Languages</title>
     </head>
     <body>
         <header>
-            <nav class="navbarcontainer">
-                <img src="./assets/imgs/Logo.png" class="logo" alt="un mundo de idiomas">
+            <nav class="navbar-container">
+                <img src="./assets/imgs/Logo.png" class="navbar--logo" alt="un mundo de idiomas">
                 <input type="checkbox" id="toggle-menu" class="toggle-menu">
-                <label for="toggle-menu"><img src="./assets/imgs/menu.png" alt="menu de 3 rallitas" class="img-menu"></label>
+                <label for="toggle-menu"><img src="./assets/imgs/menu.png" alt="menu de 3 rallitas" class="navbar-img--menu"></label>
                 <ul class="navbar">
                     <li><a href="#hero">Inicio</a></li>
                     <li><a href="#languages">Cursos</a></li>
                     <li><a href="#services">Otros Servicios</a></li>
                     <li><a href="#contacto">Contacto</a></li>
-                    <li class="navbar-extras-li">
-                        <a href="./login-alumnos.html" class="campus--log-in">Estudiantes</a>
-                    </li>
-                    <li class="navbar-extras-li">
-                        <a href="./login-clientes.html" class="campus--log-in">Clientes</a>
-                    </li>
-                    <li class="navbar-extras-li"><a href="./signin.html">Inscribirme</a></li>
+                    <li class="navbar-extras--li"><a href="./login-alumnos.html" class="campus--log-in">Estudiantes</a></li>
+                    <li class="navbar-extras--li"><a href="./login-clientes.html" class="campus--log-in">Clientes</a></li>
                 </ul>
                 <ul class="campus-access">
                     <li>
@@ -43,11 +38,12 @@
                 <h1>Academia de idiomas Full Languages</h1>
                 <img class="hero-img" src="./assets/imgs/astronauta-con-su-perro.png" alt="">
                 <div class="hero-posttitle">
-                    <img src="./assets/imgs/Logo.png" alt="un mundo de idiomas">
+                    <img class="hero-logo" src="./assets/imgs/Logo.png" alt="un mundo de idiomas">
                     <h2>Descubre mundos de posibilidades aprendiendo idiomas</h2>
-                    <img src="./assets/imgs/Logo.png" alt="un mundo de idiomas">
+                    <img class="hero-logo" src="./assets/imgs/Logo.png" alt="un mundo de idiomas">
                 </div>
             </section>
+
             <section class="languages" id="languages">
                 <h2 class="languages-title">Idiomas que brindamos</h2>
                 <div class="cards-container">
@@ -88,7 +84,7 @@
                         </div>
                     </div>
 
-                    <div class="card card-other-color">
+                    <div class="card">
                         <input type="checkbox" id="toggle-card-4" class="toggle-cards">
                         <img class="card-img" src="./assets/imgs/warhammer.png" alt="">
                         <h3>Bajo Gótico</h3>
@@ -135,7 +131,7 @@
                         </div>
                     </div>
 
-                    <div class="card card-other-color">
+                    <div class="card">
                         <input type="checkbox" id="toggle-card-8" class="toggle-cards">
                         <img class="card-img img-sindarin" src="./assets/imgs/sindarin.png" alt="">
                         <h3>Sindarin</h3>
@@ -212,7 +208,6 @@
                     <p>© 2023 Full Languages. Todos los derechos reservados.</p>
                 </div>
             </footer>
-            
 
         </main>
 
